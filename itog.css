@@ -1,0 +1,203 @@
+@font-face {
+    font-family: 'RobotoRegular';
+    src: url('fonts/Roboto-Regular.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'RobotoMedium';
+    src: url('fonts/Roboto-Medium.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'RobotoItalic';
+    src: url('fonts/Roboto-Italic.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'PhilosopherRegular';
+    src: url('fonts/Philosopher-Regular.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'PhilosopherBold';
+    src: url('fonts/Philosopher-Bold.ttf') format('truetype');
+}
+body {
+    color: #005c7d;
+}
+
+.custom-header {
+    background-color: #008daa;
+    position: relative;
+    z-index: 10;
+}
+.custom-shadow {
+    -webkit-box-shadow: 0px 4px 18px -2px rgba(0,0,0,0.6); 
+    box-shadow: 0px 4px 18px -2px rgba(0,0,0,0.6);
+}
+.custom-header a {
+    color: #d4d0c8;
+}
+.custom-header a:hover {
+    color: #eeeeed;
+}
+.navbar-nav {
+    flex-flow: row;
+}
+.header-link, .banner-h4, .fa-ul, .footer {
+    font-family: 'Roboto-Regular', sans-serif;
+    font-size: 1.3rem;
+}
+
+.banner h4 {
+    font-family: 'Roboto-Medium', sans-serif;
+}
+
+.custom-section-gray {
+    background-color: #eeeeed;
+    font-family: 'PhilosopherRegular', serif;
+}
+.custom-section-white {
+    background-color: #ffffff;
+    font-family: 'Roboto-Italic', serif;
+}
+.custom-section-gray .nav-link, .accordion .btn-link {
+    color: #06bac5;
+}
+
+.nav-link {
+    padding: 0.5rem 0.5rem;
+    font-family: 'Roboto-Regular', sans-serif;
+    text-transform: uppercase;
+}
+.nav-link:hover, .section-contacts a:hover, .section-faq a:hover {
+    color: #eb477b;
+}
+.divided::before {
+    content: '\25CF';
+    margin-right: 1rem;
+}
+.nav-link.divided::before {
+    color: #06bac5;
+}
+
+.container-custom {
+    height: 100%;
+    min-height: 600px;
+}
+.banner {
+    background-image: url('img/design-2461957_1920.png');
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    background-size: 700px 600px;
+    align-content: center;
+    padding: 10px;
+}
+.banner h1 {
+    line-height: 1;
+    font-size: 3.2rem;
+}
+.btn-custom {
+    background-color: #005c7d;
+    color: #eeeeed;
+    font-family: 'Roboto-Regular', sans-serif;
+    font-size: 1.4rem;
+} 
+.btn-custom:hover {
+    background-color: #eb477b;
+    color: #eeeeed;
+}
+
+.info-about p:not(.banner-h4) {
+    color: #008daa;
+    font-family: 'Roboto-Regular', sans-serif;
+}
+p.banner-h4 {
+    text-align-last: center;
+}
+
+.fa-ul li {
+    margin-left: 50px;
+}
+
+.accordion {
+    width: 100%;
+}
+.card {
+    border: none;
+}
+.card-header {
+    background-color: #ffffff;
+    border-bottom: none;
+}
+.card-header .btn {
+    color: #008daa;
+    font-size: 1.5rem;
+}
+.card-description {
+    font-family: 'Roboto-Italic';
+    font-size: 1.1rem;
+}
+.accordion .fas {
+    margin-right: 10px;
+}
+.btn[aria-expanded="true"] .fas {
+    transform: rotate(-180deg);
+    transition: 0.5s ease;
+}
+.section-faq h1:not(.display) {
+    font-size: 2.25rem;
+    color: #008daa;
+}
+.section-faq h1 a {
+    font-size: 2.25rem;
+    color: #005c7d;
+}
+
+.review p {
+    margin: 0 auto;
+    width: 75%;
+    font-family: 'Roboto-Italic';
+    font-size: 1.1rem;
+    color: #005c7d;
+}
+.review p:first-child {
+    text-indent: 20px;
+}
+.review-caption {
+    text-align: center;
+}
+.review-caption p {
+    font-size: 1.5rem;
+    line-height: 1;
+    color: #008daa;
+}
+.review-caption img {
+    width: 100px;
+    height: auto;
+}
+.fa-chevron-circle-right, .fa-chevron-circle-left {
+    background-color: #696969;
+    color: #eeeeed;
+    border: 2px solid #696969;
+    border-radius: 50%;
+}
+
+
+.section-contacts p {
+    font-family: 'Roboto-Medium', sans-serif;
+    font-size: 1.3rem;
+}
+.section-contacts a {
+    color: #008daa;
+}
+.list-inline-item {
+    margin: 30px;
+}
+
+
+.footer {
+    background-color: #015C7B;
+    color: white;
+    text-align: center;
+    font-size: small;
+}
+.footer a {
+    font-size: 1rem;
+}
